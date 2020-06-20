@@ -1,13 +1,11 @@
-const exprees = require('express')
+const express = require('express')
+const app = express();
 
-const app = exprees();
+const productRoutes=require('./api/routes/product')
 
 
-app.use((req, res, next) => {
-    res.status(200).json({
-        message: 'It works!!'
-    });
-});
+
+app.use('/products',productRoutes);
 
 
 module.exports = app;
