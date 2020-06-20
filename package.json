@@ -1,0 +1,14 @@
+{
+  "name": "rest-api-create",
+  "version": "1.0.0",
+  "description": "Rest-api-creation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jagadish Babu V",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
